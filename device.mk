@@ -104,3 +104,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WifiOverlay \
     TetheringConfigOverlay
+
+# Disable ADB secure on boot for debug purposes
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
+
