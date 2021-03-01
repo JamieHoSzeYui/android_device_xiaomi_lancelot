@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/descendant_lancelot.mk
+   $(LOCAL_DIR)/cesium_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    descendant_lancelot-user \
-    descendant_lancelot-userdebug \
-    descendant_lancelot-eng
+    cesium_lancelot-user \
+    cesium_lancelot-userdebug \
+    cesium_lancelot-eng
